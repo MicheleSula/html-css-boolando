@@ -4,6 +4,10 @@
     box-sizing: content-box;
 }
 
+body {
+    font-family: 'Acme';
+    font-size: 15px;
+}
 
 header {
     position: fixed;
@@ -83,7 +87,7 @@ header {
 .label {
     position: absolute;
     left: 0;
-    bottom: 30px;
+    bottom: 100px;
     margin-right: 10px;
     display: flex;
     gap: 5px;
@@ -128,17 +132,28 @@ header {
     list-style-type: none;
 }
 
-ul.item-description:first-child {
-    font-size: 10px;
+
+#clothe-type {
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: bold;
 }
 
-ul.item-description:nth-child(2) {
-    font-size: 18px;
-}
-
-ul.item-description:last-child {
-    font-size: 12px;
+#price {
+    display: flex;
+    gap: 5px;
     color: red;
+    line-height: 20px;
+    
 }
 
+#price h5 {
+    font-size: 16px;
+}
+#price h6 {
+    color: black;
+    text-decoration: line-through;
+    font-size: 16px;
+    
+}
 /* END OF MAIN */
